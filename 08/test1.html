@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding : 0;
+            margin : 0;
+        }
+
+       body>div:nth-child(1){
+        background-color: aquamarine;
+        height: auto;
+        
+       }
+       .bar>*{
+        display: inline-block;
+        height: auto;
+       }
+       .bar>div:nth-child(1){
+        color : black;
+        text-align: left;
+        padding : 10px 0;
+        font-size: 1.2em;
+        font-weight: bolder;
+        width : 150px;
+        border : 1px solid black;
+        
+       }
+       .bar>div:nth-child(2){
+       width : 100% - 850px;
+       border : 1px solid black;
+       }
+       .bar>div:nth-child(3){
+        width: 400px;
+        border: 1px solid black;
+       }
+       .bar>div:nth-child(4){
+       width : 200px;
+       border : 1px solid black;
+       }
+       .list1{
+        color : black;
+        padding : 5px;
+        list-style: none;
+        border: 1px solid black;
+       }
+       .list1>li{
+        display: inline-block;
+        padding : 5px;
+        
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <div>애완견 종류</div>
+        <div></div>
+        <div>
+            <ul class="list1">
+                <li>애완견 종류</li>
+                <li>입양하기</li>
+                <li>건강돌보기</li>
+                <li>더불어살기</li>
+            </ul>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
