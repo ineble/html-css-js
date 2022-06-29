@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[title ^= "eng"]{
+            background: url(미국.PNG) no-repeat left center;
+            padding : 5px 25px;
+            background-size: 15px;
+        }
+        a[title ^= "jap"]{
+            background: url(일본.PNG) no-repeat left center;
+            padding : 5px 25px;
+            background-size: 15px;
+        }
+        a[title ^= "chi"]{
+            background: url(캡처.PNG) no-repeat left center;
+            padding : 5px 25px;
+            background-size: 15px;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline-block;
+            margin: 10px;
+        }
+        li a{
+            padding : 5px 20px;
+            font-size:14px;
+            color:blue;
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>외국어 서비스 : </li>
+        <li><a href="#" title="english">영어</a></li>
+        <li><a href="#" title="japanese">일본어</a></li>
+        <li><a href="#" title="chinese">중국어</a></li>
+    </ul>
+</body>
+</html>
